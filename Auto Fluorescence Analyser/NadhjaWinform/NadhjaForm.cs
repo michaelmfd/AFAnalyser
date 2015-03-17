@@ -21,7 +21,12 @@ namespace NadhjaWinform
             //Initialize all forms
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Method: btnExit_Click()
+        /// Description: The application will be finished.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
